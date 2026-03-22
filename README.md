@@ -1,8 +1,5 @@
-using System.Soma;
+using System.Diagnostics;
 
-1.Somatório de um Vetor
-Lê 10 números inteiros e exibe a soma total
-.
 int[] vetor = new int;
 int soma = 0;
 
@@ -14,8 +11,6 @@ for (int i = 0; i < 10; i++)
 }
 Console.WriteLine($"O somatório é: {soma}");
 //==========================================
-2.Filtrar Números Positivos
-Lê 15 números e exibe apenas os maiores que zero
 .
 int[] vetor = new int;
 for (int i = 0; i < 15; i++)
@@ -29,9 +24,7 @@ foreach (int num in vetor)
     if (num > 0) Console.WriteLine(num);
 }
 //=========================================
-3.Busca de Elemento
-Verifica se um número digitado existe em um vetor de 8 posições e informa o índice
-.
+
 int[] vetor = new int;
 for (int i = 0; i < 8; i++) vetor[i] = int.Parse(Console.ReadLine());
 
@@ -50,9 +43,7 @@ for (int i = 0; i < 8; i++)
 }
 if (!encontrado) Console.WriteLine("O número não se encontra no vetor");
 //=======================================
-4.Soma de Dois Vetores
-Soma elementos de mesmo índice de dois vetores e armazena em um terceiro
-.
+
 int[] v1 = new int;
 int[] v2 = new int;
 int[] v3 = new int;
@@ -63,9 +54,6 @@ for (int i = 0; i < 10; i++)
     Console.Write(v3[i] + " ");
 }
 //=====================================
-5.Estatísticas de Dados
-Conta pares, ímpares, maiores que 50 e menores que 7 em um vetor de 20 posições
-.
 int[] vetor = new int;
 int pares = 0, impares = 0, maiores50 = 0, menores7 = 0;
 
@@ -78,9 +66,6 @@ for (int i = 0; i < 20; i++)
 }
 Console.WriteLine($"Pares: {pares}, Ímpares: {impares}, >50: {maiores50}, <7: {menores7}");
 //====================================
-6.Reajuste de Salários
-Armazena 10 salários e aplica um aumento de 5% em cada um
-.
 double[] salarios = new double;
 for (int i = 0; i < 10; i++)
 {
@@ -90,10 +75,7 @@ for (int i = 0; i < 10; i++)
 }
 
 //=====================================
-7.Inversão de Elementos(Troca)
-Troca o primeiro com o último, o segundo com o penúltimo, etc;
 int[] vetor = new int;
-
 for (int i = 0; i < 5; i++)
 { 
     int temp = vetor[i];
