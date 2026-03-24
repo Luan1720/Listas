@@ -1,4 +1,4 @@
-using System.Diagnostics;
+using System.Diagnostics;[10]
 
 int[] vetor = new int;
 int soma = 0;
@@ -12,7 +12,7 @@ for (int i = 0; i < 10; i++)
 Console.WriteLine($"O somatório é: {soma}");
 //==========================================
 .
-int[] vetor = new int;
+int[] vetor = new int;[15]
 for (int i = 0; i < 15; i++)
 {
     vetor[i] = int.Parse(Console.ReadLine());
@@ -25,7 +25,7 @@ foreach (int num in vetor)
 }
 //=========================================
 
-int[] vetor = new int;
+int[] vetor = new int;[8]
 for (int i = 0; i < 8; i++) vetor[i] = int.Parse(Console.ReadLine());
 
 Console.Write("Digite o valor para busca: ");
@@ -44,9 +44,9 @@ for (int i = 0; i < 8; i++)
 if (!encontrado) Console.WriteLine("O número não se encontra no vetor");
 //=======================================
 
-int[] v1 = new int;
-int[] v2 = new int;
-int[] v3 = new int;
+int[] v1 = new int;[10]
+int[] v2 = new int;[10]
+int[] v3 = new int;[10]
 
 for (int i = 0; i < 10; i++)
 {
@@ -54,7 +54,7 @@ for (int i = 0; i < 10; i++)
     Console.Write(v3[i] + " ");
 }
 //=====================================
-int[] vetor = new int;
+int[] vetor = new int;[20]
 int pares = 0, impares = 0, maiores50 = 0, menores7 = 0;
 
 for (int i = 0; i < 20; i++)
@@ -75,7 +75,7 @@ for (int i = 0; i < 10; i++)
 }
 
 //=====================================
-int[] vetor = new int;
+int[] vetor = new int;[5]
 for (int i = 0; i < 5; i++)
 { 
     int temp = vetor[i];
